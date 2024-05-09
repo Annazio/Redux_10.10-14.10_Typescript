@@ -1,0 +1,13 @@
+.item{
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.male{
+    background-color: lightblue;
+}
+.female{
+    background-color: pink;
+}

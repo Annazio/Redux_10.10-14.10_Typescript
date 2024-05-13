@@ -1,5 +1,5 @@
 import TodoItem from "./components/TodoItem";
-// import AddTodo from "./components/AddTodo";
+import AddTodo from "./components/AddTodo";
 import UsersContainer from "./components/UsersConatiner";
 import { useEffect } from "react";
 import { fetchTodos } from "./store/slice/todoSice";
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      {/* <AddTodo/> */}
+       <AddTodo/> 
       <div>
 
       </div>
